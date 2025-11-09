@@ -46,5 +46,22 @@ class Program
 
         //Task 6 Beginning
         int[] fibonacci = { 13, 1, 2, 3, 5, 8, 1, 34, 21, 55 };
+
+        //Task 7 Beginning
+        int largestNumber = 0;
+        int arrayIncrement = 0;
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------");
+        Console.Write("Task 7 - ");
+
+        foreach (int i in fibonacci)
+        {
+            if (fibonacci[arrayIncrement] > largestNumber)
+            {
+                largestNumber = fibonacci[arrayIncrement];
+            }
+            arrayIncrement++;
+        }
+        Console.WriteLine($"The largest number in the fibonacci array is: {largestNumber}.");
     }
 }
