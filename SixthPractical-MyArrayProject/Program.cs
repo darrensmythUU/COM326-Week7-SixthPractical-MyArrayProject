@@ -63,7 +63,7 @@ class Program
             arrayIncrement++;
         }
         arrayIncrement = 0;
-        Console.WriteLine($"The largest number in the fibonacci array is: {largestNumber}.");
+        Console.Write($"The largest number in the fibonacci array is: {largestNumber}.");
 
         //Task 8 Beginning
         Console.WriteLine("");
@@ -77,5 +77,21 @@ class Program
             arrayIncrement++;
         }
         arrayIncrement = 0;
+
+        //Task 9 Beginning
+        int searchedNumberIndex = -1;
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------");
+        Console.Write("Task 9 - ");
+
+        for (int i = 0; i < fibonacci.Length; i++)
+        {
+            if (fibonacci[i] == 34)
+            {
+                searchedNumberIndex = i;
+                Console.WriteLine($"The index for the number 34 is at position {searchedNumberIndex} of the fibonacci array.");
+                break;
+            }
+        }
     }
 }
