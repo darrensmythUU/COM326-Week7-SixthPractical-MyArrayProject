@@ -62,6 +62,20 @@ class Program
             }
             arrayIncrement++;
         }
+        arrayIncrement = 0;
         Console.WriteLine($"The largest number in the fibonacci array is: {largestNumber}.");
+
+        //Task 8 Beginning
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------");
+        Console.Write("Task 8 - ");
+
+        Array.Sort(fibonacci);
+        foreach (int i in fibonacci)
+        {
+            Console.Write(fibonacci[arrayIncrement]);
+            arrayIncrement++;
+        }
+        arrayIncrement = 0;
     }
 }
