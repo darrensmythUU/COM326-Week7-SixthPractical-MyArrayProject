@@ -4,12 +4,10 @@ class Program
 {
     public static void Main(string[] args)
     {
-        int lowerCaseAlphabetStart = 97;
-        int lowerCaseAlphabetEnd = 122;
-        int upperCaseAlphabetStart = 65;
         string[] alphabet = new string[26];
 
         //Task 3 Beginning
+        int lowerCaseAlphabetStart = 97;
         Console.WriteLine("---------------------------");
         Console.Write("Task 3 - ");
 
@@ -21,6 +19,7 @@ class Program
         }
 
         //Task 4 Beginning
+        int lowerCaseAlphabetEnd = 122;
         Console.WriteLine("");
         Console.WriteLine("---------------------------");
         Console.Write("Task 4 - ");
@@ -33,6 +32,7 @@ class Program
         }
 
         //Task 5 Beginning
+        int upperCaseAlphabetStart = 65;
         Console.WriteLine("");
         Console.WriteLine("---------------------------");
         Console.Write("Task 5 - ");
@@ -43,5 +43,8 @@ class Program
             upperCaseAlphabetStart += 1;
             Console.Write(alphabet[i]);
         }
+
+        //Task 6 Beginning
+        int[] fibonacci = { 13, 1, 2, 3, 5, 8, 1, 34, 21, 55 };
     }
 }
