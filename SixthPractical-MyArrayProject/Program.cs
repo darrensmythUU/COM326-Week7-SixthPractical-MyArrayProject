@@ -6,7 +6,7 @@ class Program
     {
         string[] alphabet = new string[26];
 
-        //Task 3 Beginning
+        // Task 3 Beginning
         int lowerCaseAlphabetStart = 97;
         Console.WriteLine("---------------------------");
         Console.Write("Task 3 - ");
@@ -18,7 +18,7 @@ class Program
             Console.Write(alphabet[i]);
         }
 
-        //Task 4 Beginning
+        // Task 4 Beginning
         int lowerCaseAlphabetEnd = 122;
         Console.WriteLine("");
         Console.WriteLine("---------------------------");
@@ -31,7 +31,7 @@ class Program
             Console.Write(alphabet[i]);
         }
 
-        //Task 5 Beginning
+        // Task 5 Beginning
         int upperCaseAlphabetStart = 65;
         Console.WriteLine("");
         Console.WriteLine("---------------------------");
@@ -44,10 +44,10 @@ class Program
             Console.Write(alphabet[i]);
         }
 
-        //Task 6 Beginning
+        // Task 6 Beginning
         int[] fibonacci = { 13, 1, 2, 3, 5, 8, 1, 34, 21, 55 };
 
-        //Task 7 Beginning
+        // Task 7 Beginning
         int largestNumber = 0;
         int arrayIncrement = 0;
         Console.WriteLine("");
@@ -65,7 +65,7 @@ class Program
         arrayIncrement = 0;
         Console.Write($"The largest number in the fibonacci array is: {largestNumber}.");
 
-        //Task 8 Beginning
+        // Task 8 Beginning
         Console.WriteLine("");
         Console.WriteLine("---------------------------");
         Console.Write("Task 8 - ");
@@ -78,7 +78,7 @@ class Program
         }
         arrayIncrement = 0;
 
-        //Task 9 Beginning
+        // Task 9 Beginning
         int searchedNumberIndex = -1;
         Console.WriteLine("");
         Console.WriteLine("---------------------------");
