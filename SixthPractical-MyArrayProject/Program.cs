@@ -6,6 +6,7 @@ class Program
     {
         int lowerCaseAlphabetStart = 97;
         int lowerCaseAlphabetEnd = 122;
+        int upperCaseAlphabetStart = 65;
         string[] alphabet = new string[26];
 
         //Task 3 Beginning
@@ -28,6 +29,18 @@ class Program
         {
             alphabet[i] = Convert.ToString((char)lowerCaseAlphabetEnd);
             lowerCaseAlphabetEnd -= 1;
+            Console.Write(alphabet[i]);
+        }
+
+        //Task 5 Beginning
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------");
+        Console.Write("Task 5 - ");
+
+        for (int i = 0; i < alphabet.Length; i++)
+        {
+            alphabet[i] = Convert.ToString((char)upperCaseAlphabetStart);
+            upperCaseAlphabetStart += 1;
             Console.Write(alphabet[i]);
         }
     }
